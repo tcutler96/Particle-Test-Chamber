@@ -493,7 +493,7 @@ def draw_particles(particles, tile_map):  # draws particles
         if particle.size <= 0 or not (-screen_width <= particle.x_pos <= screen_width * 2) \
                 or not (-screen_height <= particle.y_pos <= screen_height * 2) \
                 or (str(int(particle.x_pos / tile_size)) + ';' + str(int(particle.y_pos / tile_size)) in tile_map
-                    and particle.physics) or particle.age / fps >= particle.death:
+                    and particle.physics) or particle.age / fps == particle.death:
             particles.remove(particle)  # remove particle if too small, too far off screen, in tile, or too old
         else:
             particle.draw(tile_map)  # draw particle

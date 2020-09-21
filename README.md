@@ -3,4 +3,4 @@ An interactive environment for testing particle implementation in Python. Featur
 the user extensive customisation of the chamber and particle behaviour as well as the ability to add and remove tiles that the particles can interact with.
 
 # Demo
-![Demo](demo/demo)
+![Demo](demo/demo.gif)

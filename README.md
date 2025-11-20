@@ -1,5 +1,5 @@
 # Particle Test Chamber
-An interactive environment for testing particle behaviour in Python with PyGame. You can place and remove tiles, run simulations, and tweak many settings through a custom options menu.
+An interactive environment for simulating particle behaviour in Python with PyGame. You can edit the layout of the chamber, run simulations, and tweak many settings through a custom options menu.
 
 ## Features
 - Interactive chamber. Click to add or remove tiles which lets you shape the space the particles move through.

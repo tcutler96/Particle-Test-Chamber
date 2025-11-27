@@ -7,5 +7,4 @@ An interactive environment for simulating particle behaviour in Python with PyGa
 - Custom options menu. You can alter almost every part of the simulation, including particle count, gravity strength, and tile colour.
 - Real time updates. Changes apply at once so you can experiment and see how each setting effects the simulation.
 
-## Demo
 ![Demo](demo/demo.gif)
